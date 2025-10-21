@@ -1,0 +1,16 @@
+ansible-nginx-deploy/
+│
+├── inventory/
+│   └── hosts
+│
+├── roles/
+│   └── nginx/
+│       ├── tasks/
+│       │   └── main.yml
+│       ├── templates/
+│       │   └── index.html.j2
+│       └── handlers/
+│           └── main.yml
+│
+├── playbook.yml
+└── Jenkinsfile
